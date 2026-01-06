@@ -14,8 +14,19 @@
         "tab": "Guides",
         "groups": [
           {
+            "group": "SECTIONS",
+            "pages": [
+              "guides/sections/announcement-bar",
+              "guides/sections/slideshow"
+            ]
+          },
+          {
             "group": "Getting started",
             "pages": [
+              {
+                "group": "Untitled Group",
+                "pages": []
+              },
               "index",
               "quickstart",
               "development"
@@ -67,21 +78,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
